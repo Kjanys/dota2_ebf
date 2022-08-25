@@ -737,7 +737,21 @@
 	"npc_dota_hero_bane_ebf"
 	{
 		"override_hero"		"npc_dota_hero_bane"
-		"Ability10"		"special_bonus_armor_25"
+		"Ability1"		"bane_enfeeble"
+		"Ability2"		"bane_brain_sap"
+		"Ability3"		"bane_nightmare"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"bane_fiends_grip"
+		"Ability7"		"bane_nightmare_end"
+		"Ability10"		"special_bonus_unique_bane_10"
+		"Ability11"		"special_bonus_mp_regen_20"
+		"Ability12"		"special_bonus_unique_bane_8"
+		"Ability13"		"special_bonus_unique_bane_9"
+		"Ability14"		"special_bonus_unique_bane_5"
+		"Ability15"		"special_bonus_movement_speed_30"
+		"Ability16"		"special_bonus_unique_bane_2"
+		"Ability17"		"special_bonus_unique_bane_3"
 	}
 	"npc_dota_hero_dark_seer_ebf"
 	{

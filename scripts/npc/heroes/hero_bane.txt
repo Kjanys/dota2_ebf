@@ -42,7 +42,7 @@
 				"value" 						"45 50 55 60 65 70 75"
 				"special_bonus_unique_bane_6"	"+10"
 			}
-			"cast_reduction"	"30"
+			"cast_reduction"                    "30"
 			"duration"	"8 9 10 11 12 13 14"
 		}
 	}
@@ -99,7 +99,73 @@
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
 	}
-	
+
+    //=================================================================================================================
+	// Ability: Bane Friends Grip
+	//=================================================================================================================
+	"bane_fiends_grip"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5013"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_Bane.FiendsGrip"
+
+		"HasScepterUpgrade"			    "1"
+		
+		"MaxLevel"						"6"
+		"LevelsBetweenUpgrades"			"6"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"625"
+		"AbilityCastPoint"				"0.2"
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"200 400 600 800 1000 1200"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"fiend_grip_tick_interval"		"0.5"
+			"fiend_grip_mana_drain"	
+			{
+				"value"						"5"
+				"special_bonus_unique_bane_9"			"+5"
+			}
+			"AbilityChannelTime"
+			{
+				"value"								"5 5.5 6 6.5 7 7.5"
+				"special_bonus_unique_bane_3"		"+5"
+			}
+			"fiend_grip_damage"				"700 6400 33000 105000 190000 285000"
+			"AbilityCooldown"				
+			{
+				"value"	"120 110 100 95 90 85"
+				"special_bonus_scepter"	"-45"
+			}
+			"illusion_count"
+			{
+				"special_bonus_scepter" "+2"
+			}
+			"scepter_incoming_illusion_damage"
+			{
+				"special_bonus_scepter"	"+200"
+			}
+		}
+	}
+
 	//=================================================================================================================
 	// Bane: Nightmare
 	//=================================================================================================================
@@ -155,6 +221,7 @@
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
 	}
 
+    
 	//=================================================================================================================
 	// Bane: Nightmare Wake Up
 	//=================================================================================================================
@@ -191,71 +258,7 @@
 			}
 		}
 	}
-	//=================================================================================================================
-	// Ability: Bane Friends Grip
-	//=================================================================================================================
-	"bane_fiends_grip"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"					"5013"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
-		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
-		"FightRecapLevel"				"2"
-		"AbilitySound"					"Hero_Bane.FiendsGrip"
-
-		"HasScepterUpgrade"			"1"
-		
-		"MaxLevel"						"6"
-		"LevelsBetweenUpgrades"			"6"
-
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"625"
-		"AbilityCastPoint"				"0.2"
-		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
-
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"200 400 600 800 1000 1200"		
-
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityValues"
-		{
-			"fiend_grip_tick_interval"		"0.5"
-			"fiend_grip_mana_drain"	
-			{
-				"value"						"5"
-				"special_bonus_unique_bane_9"			"+5"
-			}
-			"AbilityChannelTime"
-			{
-				"value"								"5 5.5 6 6.5 7 7.5"
-				"special_bonus_unique_bane_3"		"+5"
-			}
-			"fiend_grip_damage"				"700 6400 33000 105000 190000 285000"
-			"AbilityCooldown"				
-			{
-				"value"	"120 110 100 95.8 91.7 87.6"
-				"special_bonus_scepter"	"-45"
-			}
-			"illusion_count"
-			{
-				"special_bonus_scepter" "+2"
-			}
-			"scepter_incoming_illusion_damage"
-			{
-				"special_bonus_scepter"	"+200"
-			}
-		}
-	}
+	
 	//=================================================================================================================
 	// Ability: Special Bonus
 	//=================================================================================================================
@@ -402,5 +405,26 @@
 				"ad_linked_abilities"			"bane_fiends_grip"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
+	}
+	"special_bonus_unique_bane_10"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"978"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"							"special_bonus_base"		
+	}
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"special_bonus_unique_bane_11"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"979"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"							"special_bonus_base"		
 	}
 }

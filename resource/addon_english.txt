@@ -2721,6 +2721,7 @@
 		"DOTA_Tooltip_ability_special_bonus_hp_regen_100"			"+{s:value} Health Regen"
 		"DOTA_Tooltip_ability_special_bonus_hp_regen_4000"			"+{s:value} Health Regen"
 		"DOTA_Tooltip_ability_special_bonus_mp_regen_40"			"+{s:value} Mana Regen"
+		"DOTA_Tooltip_ability_special_bonus_mp_regen_20"			"+{s:value} Mana Regen"
 		"DOTA_Tooltip_ability_special_bonus_mp_regen_875"			"+{s:value} Mana Regen"
 		"DOTA_Tooltip_ability_special_bonus_attack_damage_125"		"+{s:value} Attack Damage"
 		"DOTA_Tooltip_ability_special_bonus_attack_damage_200"		"+{s:value} Attack Damage"

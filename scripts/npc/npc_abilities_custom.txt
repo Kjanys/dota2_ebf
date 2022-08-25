@@ -17651,7 +17651,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"ID"					"6116"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"BaseClass"						"special_bonus_mp_regen_175"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
@@ -17661,8 +17661,8 @@
 		{
 			"01"
 			{
-				"var_type"					"FIELD_INTEGER"
-				"value"				"40"
+				"var_type"					"FIELD_FLOAT"
+				"value"				"40.00"
 			}
 		}
 	}
@@ -17685,6 +17685,25 @@
 			{
 				"var_type"					"FIELD_FLOAT"
 				"value"				"8.75"
+			}
+		}
+	}
+	"special_bonus_mp_regen_20"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"special_bonus_mp_regen_175"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"value"				"20.00"
 			}
 		}
 	}
