@@ -62,6 +62,22 @@
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
 	}
+	
+	//=================================================================================================================
+	// Batrider: Sticky Napalm
+	//=================================================================================================================
+	"batrider_sticky_napalm_application_damage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"976"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_Batrider.StickyNapalm.Impact"
+		"MaxLevel"						"1"
+
+	}	
 
 	//=================================================================================================================
 	// Batrider: Flamebreak
