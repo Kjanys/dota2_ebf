@@ -85,7 +85,7 @@
 	"npc_dota_hero_chaos_knight" "5"
 	"npc_dota_hero_phantom_assassin" "5"
 	"npc_dota_hero_gyrocopter" "5"
-	"npc_dota_hero_rubick" "0"
+	"npc_dota_hero_rubick" "5"
 	"npc_dota_hero_luna" "5"
 	"npc_dota_hero_wisp" "5"
 	"npc_dota_hero_disruptor" "0"

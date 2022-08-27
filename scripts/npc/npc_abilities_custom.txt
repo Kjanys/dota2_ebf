@@ -82,6 +82,7 @@
 #base "heroes/hero_zeus.txt"
 #base "heroes/hero_jakiro.txt"
 #base "heroes/hero_ogre_magi.txt"
+#base "heroes/hero_rubick.txt"
 #base "heroes/hero_shadow_shaman.txt"
 
 // Dota Heroes File

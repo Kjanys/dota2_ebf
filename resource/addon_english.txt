@@ -2115,6 +2115,7 @@
 		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_slow_duration"     "Slow duration:"
 		"DOTA_Tooltip_ability_skywrath_mage_concussive_shot_datadriven_movement_speed_pct"              "%Movement speed reduction:"
 
+		"DOTA_Tooltip_ability_rubick_spell_steal_Description"                              "Rubick studies the trace magical essence of one allied hero, learning the secrets of the last spell the hero cast. Rubick can use this spell as his own for several minutes or until he dies."
 
 		"DOTA_Tooltip_ability_clinkz_death_pact_custom"                                          "Death Pact"
 		"DOTA_Tooltip_ability_clinkz_death_pact_custom_Description"                              "Clinkz makes a forbiden pact to the enemy boss, damaging it, and gaining damage and health based on boss's health"
